@@ -1,1 +1,1 @@
-# project files is in master branch
+# project files are in master branch
