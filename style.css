@@ -1,0 +1,45 @@
+#container {
+	width: 280px;
+	/*height: 500px;*/
+	margin: auto;
+	border-radius: 20px;
+	overflow: hidden;
+	font-family: 'Work Sans', sans-serif;
+}
+#screen {
+	width: 100%;
+	height: 80px;
+	background-color: #22214a;
+	color: white;
+	font-size: 3rem;
+	text-align: right;
+}
+.keyboard {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: grey;
+	user-select: none;
+}
+.keys {
+	box-sizing: border-box;
+	width: 50px;
+	height: 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+	padding: 12px;
+	font-size: 1.5rem;
+	color: white;
+	transition: .5s ease;
+}
+.keys:hover {
+	background-color: #b7b6d9;
+}
+#equal {
+	transition: .3s ease;
+}
+#equal:hover {
+	width: 120px;
+	background-color: blue;
+}
